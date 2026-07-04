@@ -1,0 +1,27 @@
+#first{
+    border: 2px solid;
+    width: 200px;
+    height:200px;
+    background-color: rgb(51, 51, 50);
+    position :relative;/*This will make the element relative to its parent element*/ 
+    left: 10px;/*If i change the values of left and top to a negative value, it will move the element in the opposite direction*/
+    top: 10px;/*This will move the element 10px down from its parent element*/
+    /*If i set position to fixed, it will position the element relative to the browser window*/
+    /*If i set position to absolute, it will position the element relative to the nearest positioned ancestor*/
+   
+}
+#second{
+    width: 100px;
+    height:100px;
+    background-color: rgb(95, 90, 122);
+    position :absolute;/*This will make the element absolute to its parent element*/ 
+    left: 0px;/*This will move the element 0px to the right of its parent element*/
+    top: 0px;/*This will move the element 50px down from its parent element*/
+    /*If i change the values of left and top to a negative value, it will move the element in the opposite direction*/
+    /*If i set position to fixed, it will position the element relative to the browser window*/
+    /*If i set position to relative, it will position the element relative to its parent element*/
+}
+html{
+    border: 2px solid;
+    display: flow-root;
+}

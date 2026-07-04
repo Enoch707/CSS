@@ -1,0 +1,13 @@
+div{
+    border: 2px solid;
+    height: 10em;/* THERE IS A PROBLEM THE DISPLAY IS OVERFLOWING OUT OF THE */
+    overflow: auto;
+    background-color: rgb(217, 141, 33);
+    
+
+}
+main{
+    font-size: large;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,21 @@
+body{
+      margin: 0px;
+}
+.a{
+    border : 5px solid;
+    WIDTH : 150px;
+    HEIGHT : 150px;
+    font-size: 2em;
+    background-color : rgb(127, 125, 128);/*NOTE You call class with a dot*/
+    margin:  50px;
+}
+.b{
+    border : 2px solid;
+    WIDTH : 150px;
+    HEIGHT : 150px;
+    font-size: 2em;
+    background-color : rgb(122, 0, 183);
+    margin: right 100px;
+    margin:auto;
+}
+/*And u call id with a hash*/

@@ -1,0 +1,28 @@
+@font-face {
+    src: url('font/MontenegrinGothic-Regular.ttf');
+    font-family: rough
+}
+header{
+    font-size: 2em;
+    font-family: rough;
+    text-shadow: 3px 3px 15px rgb(9, 9, 9),-3px -3px 10px rgb(232, 232, 236);/*First on is for the horizontal offset, second for vertical offset*/
+    /*the third value is the blur radius and colors can be specified*/
+    /*colours are seperated with commas and making them negative will shift it to the opposite direction*/
+}
+#box1{
+    width : 15em;
+    height : 15em;
+    background-color : rgb(127, 125, 128);
+    box-shadow: 15em 15em 15em rgb(153, 44, 44),-15em -15em 10em rgb(232, 232, 236);
+}
+#circle1{
+    width : 15em;
+    height : 15em;
+    background-color : rgb(127, 125, 128);
+    border-radius: 50%;
+    box-shadow: 15em 15em 15em rgb(153, 44, 44),-15em -15em 10em rgb(232, 232, 236);
+}
+html{
+    background-color : rgb(43, 43, 43);
+}
+/*text shadows are for text and box shadows are for boxes*/

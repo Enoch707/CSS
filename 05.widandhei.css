@@ -1,0 +1,22 @@
+.box{
+    border: 2px solid;
+    /*height is always as auto as default*/
+    height: auto;
+    /*width is also set at auto at default*/
+    width: 50%;/*Means take half the space u usually take*/
+    /*BUT SINCE THIS IS DIV ITS USUALLY TAKES ALL THE SPACE**/
+    padding: 25PX;/**Basically margin but easier**/
+    float: left;
+    text-align: center;
+    min-height: 50%;
+    
+}
+
+main{
+    background-color: grey;
+    height: 100vh;/*take 100 percent of the height*/
+}
+*{
+    box-sizing: border-box;
+    
+}

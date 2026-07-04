@@ -1,0 +1,30 @@
+html{
+    background-color : rgb(0, 0, 0);
+}
+main{
+    background-color : rgb(81, 80, 80);
+    border : 3px rgb(204, 102, 47) solid;
+    display: flow-root;/*This will make the main element float to the left of the page*/
+}
+header{
+    color : rgb(255, 255, 255);
+}
+img{
+    border : 3px rgb(204, 102, 47) solid;
+    border-style: solid;/*You can use any of these styles*/
+    /* Order: Top , Right , Bottom , Left in a clockwise direction */
+    border-color : black rgb(209, 209, 211) beige white;
+    border-radius : 50%;/*This will make the image circular*/
+
+}
+#coffee{
+    float : left;/*This will make the image float to the left of the page*/
+    margin-right: 10px;/*This gives a margin to the right of the image so that the text does not touch it*/
+}
+#coffee2{
+    float : left;
+    margin-right: 10px;/*This gives a margin to the right of the image so that the text does not touch it*/
+}
+footer{
+    color : rgb(223, 170, 12);
+}

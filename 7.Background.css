@@ -1,0 +1,9 @@
+body{
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;/*fixes the background image */
+}
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
