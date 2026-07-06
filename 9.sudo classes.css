@@ -1,0 +1,73 @@
+/*Basically what happens when something happens lets modify a button*/
+html{
+    background-color: black;
+}
+button{
+     border-radius: 3em;
+     background-color: rgb(244, 250, 255);
+}
+button:hover{/*What happens when ur mouse touches it*/
+    background-color: rgb(11, 150, 200);
+    font-family:cursive ;
+    border-radius: 3em;
+    margin-left: auto;
+}
+button:active{/*What happens when ur mouse holds  it*/
+    background-color: red;
+    border-radius: 3em;
+
+}
+
+a:link{/*basically unvisited */
+    color: rgb(139, 139, 139);
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(210, 9, 150);
+}
+a:hover{
+    color: rgb(105, 105, 104);
+    font-size: 1.2em;
+}
+a:active{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(231, 12, 247);
+}
+
+li:hover{
+    color: blueviolet;
+    font-size: 1.1em;
+}
+li:not(:hover){/*Meaning everytime its not been to touched choose this*/
+    color: rgb(0, 166, 255);
+}
+li:nth-child(3n+1){/*for a specific one*/
+    background-color: gray;
+}
+/*for every third element is 3n but if i want to start from the to its 3n+1*/
+#greeting {
+    color: aliceblue;
+}
+#greeting h3{
+        background-color: rgb(35, 35, 35);
+        padding: 1.2em;
+        display: none;
+
+}
+#greeting:hover h3{
+    width: 3em;
+    height: 3em;
+    display: block;
+}
+header{
+    color: aliceblue;
+}
+header p{
+    display: none;
+}
+header:hover p{
+    background-color: rgb(42, 43, 43);
+    width: 3em;
+    height: 4em;
+    display: block;
+}

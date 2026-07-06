@@ -1,0 +1,23 @@
+h1::first-letter{/*This targets the every h1 in the list*/
+    font-size: 2em;
+    font-family: cursive;
+}
+p::first-line{
+    color: blueviolet;
+}
+p::selection{/*the way you highlight something and by default its blue and white*/
+    color: aqua;
+    background-color: blueviolet;
+}
+#fruit li::before{/*Before any check mark add a mark emoji*/
+    content: '✅';
+}
+#apple::after{/*after the text apple add apple*/
+    content: '🍎';
+}
+#fruit li::marker{
+    content:'~';
+    color: rgb(93, 2, 2);
+    font-size: 1.5em;
+}
+/*This is a way to target specific element*/

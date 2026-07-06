@@ -1,0 +1,21 @@
+#container{
+    border: 2px solid;
+}
+/*lets highlight the text inside the border*/
+#container h3{/*notice the space before h3 this is saying target all h3 in id container*/
+    background-color: rgb(215, 247, 250);
+}/*desendant*/
+/*children*/
+#container > h3{
+    font-size: xx-large;
+}/*the > sign means the direct children of the container the third one is a grand parent*/
+/*general sibling*/
+#container ~ h3{
+    font-family:cursive;
+}
+/*These affect 4 and 5 cause the are not in another family so they are the direct siblings to the container*/
+/*Adjacent siblings*/
+#container + h3{
+    background-color: brown;
+}
+/*Basically the first born of the siblings meaning the closest to the first container family*/

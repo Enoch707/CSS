@@ -1,0 +1,36 @@
+main .drop{
+    display: inline-block;
+}
+.drop button{
+    border-radius: 10px;
+    background-color: rgb(8, 8, 8);
+    color: azure;
+    padding: 4px 10px;
+    cursor: pointer;/*To change the cursor from mouse to an hand*/
+
+}
+.drop a{
+    display: block;
+    color: rgb(231, 227, 227);
+    text-decoration: none;
+    padding: 4px 10px;
+    float: auto;
+}
+.drop .content {
+    display: none;
+    background-color: rgb(10, 10, 10);
+    position:absolute;
+    min-width: 50px;
+    text-shadow: 2px 2px 2px rgb(118, 117, 117);
+    border-radius: 15px;
+}
+.drop:hover .content{
+    display: block;
+}
+.drop:hover button{
+    background-color: gray;
+}
+.content a:hover {
+    background-color: rgb(79, 79, 79);
+    border-radius: 15px;
+}
