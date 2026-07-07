@@ -1,0 +1,25 @@
+body{
+    margin: 0;/*to remove margin set it to 0*/
+}
+header{
+    text-align: center;
+    background-color: rgb(120, 119, 119);
+    padding: 25px;
+}
+.navbar{
+    background-color: rgb(28, 28, 28);
+    height: 50px;
+}
+aside {
+    padding: 3px;
+    width: 20%;
+    float: left;
+}
+section{
+    width: 40%;
+    float: left;
+}
+article{
+    width: 40%;
+    float: left;
+}
