@@ -1,0 +1,27 @@
+.icons{
+    text-align: center;
+    margin-right: 20px;
+}
+html{
+    background-color: black;
+}
+.fa-house-chimney {
+    color: rgb(49, 49, 49);
+}
+.fa-x-twitter{
+    color: rgb(72, 72, 72);
+}
+.fa-tiktok{
+    color: rgb(77, 77, 78);
+    
+}
+.fa-house-chimney:hover {
+    color: rgb(252, 251, 251);
+}
+.fa-x-twitter:hover{
+    color: aliceblue;
+
+}
+.fa-tiktok:hover{
+    color: white;
+}

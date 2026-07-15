@@ -1,0 +1,70 @@
+html{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(177, 3, 3);
+    font-size: 13em;
+    text-align: center;
+    border-radius: 15px;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-direction:normal ;
+    animation-timing-function:cubic-bezier(0.02, 0.45, 1,-0.02) ;
+
+}
+img {
+    width: 250px;
+        animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-direction:normal ;
+    animation-timing-function:cubic-bezier(0.28, -1.48, 0.54,2.21) ;
+
+}
+@keyframes slideLeft{
+    from{transform:translateX(300%);} 
+}
+@keyframes slideRight{
+    to{transform:translateX(300%);}
+    
+}
+@keyframes slideUP{
+    to{transform:translateY(-10px);}
+    50%{background-color: rgb(58, 58, 58);}
+    30%{box-shadow: 0px 0px 15px rgb(237, 234, 234);}
+}
+@keyframes rot{
+    10%{transform: rotateZ(360deg);}/*this is saying for lets say the time is 2s in 50% OF 2sec animate and for the remaining 50 return it back*/
+    
+}
+@keyframes grow{
+    50%{transform:scale(2,2);}
+    
+}
+@keyframes shrink{
+    50%{transform:scale(0.5);}
+    
+}
+@keyframes fade{
+    10%{opacity: 1;}
+    
+}
+@keyframes col{
+    40%{color: rgb(160, 7, 7);}
+    50%{background-color: black;}
+    20%{opacity: 0;}   
+    
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px rgb(244, 103, 3);}
+    
+}
+/* div:hover{
+    animation-name: slideUP;
+    animation-duration: 2s;
+    animation-iteration-count:2;
+    animation-direction:alternate ;
+}  */

@@ -1,0 +1,36 @@
+html{
+    background-color: black;
+}
+.container{
+     display: flex ; /*by default this is set to row */
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-evenly;flexstart is the default */
+    border-radius: 15px;
+    height: 90vh;
+    border: 8px solid rgb(108, 107, 107);
+    /*flex-wrap: wrap;
+    align-content: flex-start;/*to remove the spaces*/
+    /* column-gap: 1em;
+    row-gap: 1em; */
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: #434444;
+    align-self: center;
+}
+#box2{
+    background-color: #666767;
+    /* align-self:last baseline; */
+}
+#box3{
+    background-color: #8c8d8d;
+}
+#box4{
+    background-color: #c7c9c9;
+}

@@ -1,0 +1,25 @@
+.gallery img{
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+.gallery{
+    display: inline-block;/*to put them at the same line*/
+    border: 1px solid #2a2a2ac5;
+    margin: 5px;
+    width: 200px;
+}
+.gallery .dis{
+    padding: 5px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 2px solid black;
+}
+@media screen and (max-width:600px) {
+    .gallery {
+        display: block;
+
+        
+    }
+}

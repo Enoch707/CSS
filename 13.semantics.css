@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;/*Meaning when calculating the width add padding*/
+}
 body{
     margin: 0;/*to remove margin set it to 0*/
 }
@@ -11,15 +14,29 @@ header{
     height: 50px;
 }
 aside {
-    padding: 3px;
+    padding: 10px;
     width: 20%;
     float: left;
 }
 section{
     width: 40%;
     float: left;
+    padding: 10px;
 }
 article{
     width: 40%;
     float: left;
+    padding: 10px;
+}
+footer{
+    display:block;
+    clear: both;/*Remove every float around it*/
+    text-align: center;
+    background-color: rgb(120, 119, 119);
+    padding: 25px;
+}
+@media screen and (max-width:600px){/*if the screen is smaller like a phone screen*/
+ aside,section,article{/*if it reaches a specific shape aside section and article will take 100% of space*/
+    width:100%;
+ }    
 }
